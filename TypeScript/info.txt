@@ -1,0 +1,9 @@
+//execute the JS code:
+node .\DataTypes.js
+
+//execution of TS code is NOT recommended with node:
+node .\DataTypes.ts
+
+//execute TS code
+//execute the JS code:
+tsx .\DataTypes.ts

@@ -1,0 +1,20 @@
+CYPRESS
+-----------------------------
+//STEP 2 = create the package.json in my new project folder & is the first thing to do when the project is created
+npm init -y
+
+//STEP 2 - install CYPRESS
+npm install cypress
+
+//to install a specific version
+npm install cypress@9.5.0
+
+//see the version of cypress
+npx cypress -v
+
+//check cypress: dependencies, libraries
+//if is a timeout error, search for the error on stackoverflow and change the paramter in verify.json
+npx cypress verify
+
+//open the cypress project and the APP
+npx cypress open

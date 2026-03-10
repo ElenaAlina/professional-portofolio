@@ -14,4 +14,9 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import { beforeEach} from 'mocha'
 import './commands'
+
+beforeEach(function(){
+    cypress.log('I am inside of e2e.js from the support folder, and I am running before each test case as a preresquisite')
+})

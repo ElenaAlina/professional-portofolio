@@ -1,0 +1,2 @@
+Hello, This sample file is created automatically with this input!
+I am learning Cypress
